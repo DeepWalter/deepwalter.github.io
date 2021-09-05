@@ -87,6 +87,11 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+collections:
+  python-tips:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -103,6 +108,13 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _python-tips
+  - scope:
+      path: ""
+      type: python-tips
     values:
       layout: single
       author_profile: true
