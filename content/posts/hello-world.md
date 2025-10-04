@@ -1,8 +1,13 @@
 ---
-title: 'Hello World'
+title: "Introduction to Hugo PaperMod with Github pages"
 date: 2024-07-09T13:15:32+08:00
 ---
 
-## Introduction
+## Install Hugo
 
-Hello world!
+
+
+## Install PaperMod Theme
+
+## Deploy to Github Pages
+
